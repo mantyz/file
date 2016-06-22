@@ -50,10 +50,6 @@ int main(int argc, char const *argv[])
 		return 1;
 	}
 	outfile.close();
-<<<<<<< HEAD
-	return 0;	//hotfix
-=======
 
-	return 0; 
->>>>>>> iss53
+	return 0;
 }
