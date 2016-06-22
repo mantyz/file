@@ -44,9 +44,9 @@ int main(int argc, char const *argv[])
 		}
 	}
 
-	if (close (ifd) == -1)	//iss53
+	if (close (ifd) == -1)	
 	{
-		cerr << "Cannot close file with descriptor = " << ifd << endl;
+		cerr << "Cannot close file with descriptor = " << ifd << endl;	//master
 		return 1;
 	}
 	outfile.close();
