@@ -50,5 +50,5 @@ int main(int argc, char const *argv[])
 		return 1;
 	}
 	outfile.close();
-	return 0;
+	return 0;	//hotfix
 }
