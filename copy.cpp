@@ -40,7 +40,7 @@ int main(int argc, char const *argv[])
 	{
 		for (i = 0; i < bytes; i++)
 		{
-			outfile << buffer[i];
+			outfile << buffer[i];	//iss54_2
 		}
 	}
 
