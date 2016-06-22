@@ -44,11 +44,16 @@ int main(int argc, char const *argv[])
 		}
 	}
 
-	if (close (ifd) == -1)
+	if (close (ifd) == -1)	//iss53
 	{
 		cerr << "Cannot close file with descriptor = " << ifd << endl;
 		return 1;
 	}
 	outfile.close();
+<<<<<<< HEAD
 	return 0;	//hotfix
+=======
+
+	return 0; 
+>>>>>>> iss53
 }
