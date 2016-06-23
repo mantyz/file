@@ -31,5 +31,5 @@ int main(int argc, char const *argv[])
 		cerr << "Cannot close file with descriptor = " << fd << endl;
 		return 4;
 	}
-	return 0;	//
+	return 0;
 }
